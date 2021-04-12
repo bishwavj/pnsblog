@@ -19,9 +19,6 @@ module.exports.createPost = (req, res) => {
 		if (description === '') {
 			errors.push({ msg: 'Description is required' });
 		}
-		if (slug === '') {
-			errors.push({ msg: 'Slug is required' });
-		}
 		if (Object.keys(files).length === 0) {
 			errors.push({ msg: 'Image is required' });
 		} else {
