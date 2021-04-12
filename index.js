@@ -8,7 +8,6 @@ const profileRoutes = require('./routes/profileRoutes');
 require('dotenv').config();
 const app = express();
 
-// connect mongodb database
 connect();
 app.use(bodyParser.json());
 app.use('/', router);
