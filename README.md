@@ -5,6 +5,6 @@
 
 - Install React dependencies
  
-  npm run installClient
+  npm run install-client
 
 
